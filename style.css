@@ -1,0 +1,1831 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+
+@font-face {
+    src: url(fonts/Poppins-Bold.ttf);
+    font-family: poppy;
+  }
+  
+  @font-face {
+  src: url(fonts/Poppins-Medium.ttf);
+  font-family: pops;
+  }
+  
+  @font-face {
+  src: url(fonts/Poppins-Light.ttf);
+  font-family: poppins;
+  }
+
+  @font-face {
+    src: url(fonts/Poppins-SemiBold.ttf);
+    font-family: popBlack;
+    }
+
+
+  @media only screen and (min-width: 200px) {
+
+    a{
+        text-decoration: none;
+        color: inherit;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+#top{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px #8a8a8a;
+    z-index: 1;
+    
+}
+
+
+
+#top p{
+    margin-left: 0;
+    text-align:center;
+    line-height: 5%;
+}
+
+#name-el{
+    font-size: 6vw;
+    font-family: pops;
+}
+
+#profession{
+    font-size: 3vw;
+    font-family: poppins;
+}
+
+#top ion-icon{
+   position: absolute;
+   top: 25%;
+   right: 10%;
+   
+    font-size:10vw;
+    text-align: center;
+ 
+ 
+  
+    
+}
+
+
+
+#ex ion-icon{
+    position: absolute;
+   top: 25%;
+   right: 10%;
+   
+    font-size:10vw;
+    text-align: center;
+    
+ 
+    
+}
+
+
+
+
+#burger{
+    position: absolute;
+    margin: auto;
+    background-color: #f6ede2;
+    height: 100vh;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+  
+   
+    
+}
+
+#menu{
+   
+    
+    width: 50%;  
+    transition: width 1s;
+    float: right;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#burger ul{
+    position: relative;
+    padding-top: 20%;
+    list-style: none;
+    margin: auto;
+    
+
+}
+
+#burger li{
+    
+    font-family: pops;
+    margin-top: 5%;
+    margin-right: 5%;
+   
+}
+
+#scroll{
+    margin: auto;
+    height: 75vh;
+    overflow: auto;
+}
+
+
+
+
+#opener{
+   padding-top: 30%;
+    background-color: #e9d3b8;
+    text-align: center;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+
+   
+}
+
+#opener img{
+    width: 90%;
+ border-style: solid;
+ border-width: thin;
+    
+}
+
+#opener button{
+    margin: auto;
+   width: 50%;
+     background-color: #000000;
+     color: white;
+     border-style: none;
+     cursor: pointer;
+     
+}
+
+#cal-el{
+    font-family: pops;
+    font-size: 5vw;
+}
+
+
+
+#work{
+     margin: auto;
+   width: 50%;
+     background-color: #000000;
+     color: white;
+     border-style: none;
+     cursor: pointer; 
+     
+}
+
+#working{
+    margin: auto;
+  width: 50%;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+    cursor: pointer; 
+    
+}
+
+
+
+#hard{
+    margin: auto;
+  width: 50%;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+    cursor: pointer; 
+}
+
+#tit-el{
+    font-family: popBlack;
+    font-size: 6.5vw;
+   margin-left: 5%;
+    text-align: left;
+}
+
+#header-el{
+
+    font-size: 5vw;
+ font-family: pops;
+    margin-left: 5%;
+    text-align: left;
+    margin-right: 5%;
+}
+
+
+#bold{
+
+    font-size: 5vw;
+ font-family: popBlack;
+    margin-left: 5%;
+    text-align: left;
+    margin-right: 5%;
+}
+
+#header{
+
+    font-size: 5vw;
+ font-family: pops;
+    margin-left: 5%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+
+#section{
+    background-color: #f6ede2;
+    padding: 2%;
+    text-align: center;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+}
+
+#how{
+    font-family: popBlack;
+    font-size: 6.5vw;
+    text-align: center;
+}
+
+#option{
+    font-size: 5vw;
+    font-family: pops;
+   
+}
+
+#board{
+    width: 90%;
+    border-style: solid;
+    border-width: thin; 
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+#pot{
+    width: 90%;
+    border-style: solid;
+    border-width: thin; 
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+#bowl{
+    width: 90%;
+    border-style: solid;
+    border-width: thin; 
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 10%;
+
+
+}
+
+
+
+#board-el{
+    width: 90%;
+    border-style: solid;
+    border-width: thin; 
+    margin: auto;
+    margin-top: 15%;
+    padding-bottom: 10%;
+}
+
+#section img{
+    width: 100%;
+
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+}
+
+
+#sub-el{
+
+    font-size: 6vw;
+ font-family: pops;
+ margin: 2%;
+   
+}
+
+#section button{
+    margin: auto;
+     background-color: #2f4858;
+     border-style: none;
+     cursor: pointer;
+  width: 60%;
+  color: white;
+}
+
+
+
+
+
+#op-el{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+}
+
+#op-el img{
+    width: 90%;
+ border-style: solid;
+ border-width: thin;
+ margin-top: 15%;
+
+    
+}
+
+#target-el{
+    font-family: popBlack;
+    font-size: 6.5vw;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#target{
+    font-family: popBlack;
+    font-size: 6.5vw;
+    text-align: center;
+    
+    
+}
+
+#arrange{
+    font-family: popBlack;
+    font-size: 6.5vw;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#design-el{
+    font-size: 5vw;
+    font-family: pops;
+       margin-left: 5%;
+       text-align: left;
+       margin-right: 5%;
+}
+
+
+#sec{
+    background-color: #c0b58a;
+    padding: 2%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+}
+
+#sec img{
+    width: 90%;
+   
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding-top: 5%;
+
+}
+
+#sec button{
+    margin: auto;
+     background-color: #2f4858;
+     border-style: none;
+     cursor: pointer;
+  width: 60%;
+  color: white;
+}
+
+#bore{
+    width: 100%;
+ 
+    margin: auto;
+    margin-top: 10%;
+   
+}
+
+
+#call-el{
+
+    font-size: 5vw;
+ font-family: pops;
+    margin-left: 5%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+#client{
+    font-family: popBlack;
+    font-size: 6.5vw;
+    text-align: center;
+    border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+#board li {
+  list-style-type: "\2192";
+}
+
+#bowl li {
+    list-style-type: "\2192";
+  }
+
+
+#sec-el{
+    padding: 2%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ padding-bottom: 10%;
+}
+
+
+#work-el{
+    margin: auto;
+  width: 50%;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+    cursor: pointer; 
+    margin-bottom: 5%;
+}
+
+
+#op{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ background-color: #f6ede2;
+}
+
+#op img{
+    width: 90%;
+ border-style: solid;
+ border-width: thin;
+ margin-top: 15%;   
+}
+
+#footing{
+margin: auto;
+    background-color: #2f4858;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+     
+    
+}
+
+#footing p{
+    margin-left: 0;
+}
+
+#footing li{
+
+    list-style: none;
+  
+
+}
+
+#ul-2{
+    margin-top: 15%;
+   
+}
+
+#ul-2 ion-icon{
+    font-size: 5vw;
+     margin: auto;
+     cursor: pointer;
+   
+}
+
+#copy{
+    margin: auto;
+  margin-top: 10%;
+  margin-right: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-bottom: transparent;
+ border-right: transparent;
+}
+
+  }
+
+
+
+
+  @media only screen and (min-width: 600px) {
+
+    #ex ion-icon{
+       
+        top: 10%;
+        font-size: 8vw;
+        
+    }
+
+
+    #name-el{
+        font-size: 4vw;
+        
+    }
+    
+    #profession{
+        font-size: 2vw;
+        
+    }
+
+    #top ion-icon{
+        top: 10%;
+         font-size:8vw;  
+     }
+
+
+   
+
+     #opener img{
+        position: relative;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+      
+    }
+
+ 
+    #opener{
+        margin: auto;
+        padding-top: 20%;
+        text-align: left;
+        overflow: hidden;
+        padding-bottom: 5%;
+       
+          
+     }
+
+     #tit-el{
+        font-size: 3vw;
+        text-align: left;
+        margin: auto;
+        margin-left: 0;
+        margin-right: 5%;
+        margin-top: 5%;
+        
+    }
+
+    #header-el{
+        margin-right: 5%;
+        font-size: 2vw;
+        overflow: hidden;
+        
+    }
+
+    #bold{
+        margin-right: 5%;
+        font-size: 2vw;
+        overflow: hidden;
+        
+    }
+
+
+    #header{
+        margin-right: 5%;
+        font-size: 2vw;
+        overflow: hidden;
+        
+    }
+
+    #opener button{
+      position: relative;
+      width: 30%;
+   
+    }
+
+    #how{
+        
+        font-size: 3vw;
+    }
+
+    #option{
+        font-size: 2vw;
+    }
+
+    #section{
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #section button{
+  
+        width: 50%;
+       
+      }
+
+    #board{
+        position: relative;
+        width: 45%;
+        margin-top: 5%;
+       padding-bottom: 5%;
+       margin-left: 3%;
+       float: left;
+      
+    }
+
+    #pot{
+        margin: auto;
+        width: 50%;
+        margin-top: 5%;
+       padding-bottom: 5%;
+     
+       
+      
+    }
+
+    #bowl{
+        position: relative;
+        width: 30%;
+        height: auto;
+        margin-top: 5%;
+       padding-bottom: 0%;
+       margin-left: 2.5%;
+       float: left;
+       height: 91vw;
+      
+    }
+
+
+
+    #board-el{
+        position: relative;
+        width: 45%;
+        float: right;
+        display: inline;
+        margin: auto;
+        margin-right: 2%;
+        margin-top: 5%;
+        padding-bottom: 5%;
+       
+        
+    }
+
+    #sub-el{
+        
+        font-size: 2.5vw;
+        
+    }
+
+    #op-el{
+      margin-top: 5%;
+      padding-bottom: 5%;
+    }
+
+    #op-el img{
+        position: relative;
+        width: 45%;
+      margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+       
+       
+    }
+
+   
+    #target-el{
+        font-size: 3vw;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%;
+       padding-top: 2%;
+    }
+
+    #target{
+        font-size: 3vw;
+        text-align: center;
+        
+       padding-top: 2%;
+    }
+
+    #arrange{
+        font-size: 3vw;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 0;
+       padding-top: 2%;
+       
+    }
+
+    #design-el{
+       
+        font-size: 2vw;
+        overflow: hidden;
+       
+    }
+
+
+    #work{
+       position: relative;
+        margin: auto;
+      width: 30%;
+      overflow: hidden;
+      margin-left: 40%;
+      
+   }
+
+   #working{
+    position: relative;
+     margin: auto;
+   width: 40%;
+   overflow: hidden;
+   
+}
+
+   #hard{
+    position: relative;
+    float: left;
+    overflow: hidden;
+     margin: auto;
+   width: 30%;
+   margin-left: 5%;
+ 
+   
+}
+
+  
+   #cal-el{
+    font-family: pops;
+    font-size: 2vw;
+}
+
+
+#sec{
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+#bore{
+    position: relative;
+    width: 60%;
+    
+   padding-bottom: 0;
+   margin-top: 0;
+}
+
+
+#call-el{
+    margin-right: 5%;
+    font-size: 2vw;
+    
+}
+
+
+#client{
+ 
+    font-size: 3vw;
+    padding-bottom: 5%;
+ 
+}
+
+
+#sec-el{
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+#work-el{
+    position: relative;
+     margin: auto;
+   width: 35%;
+   overflow: hidden;
+   margin-bottom: 5%;
+}
+
+
+#op{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+  #op img{
+    position: relative;
+    width: 45%;
+  margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+   
+   
+}
+
+#footing ul{
+
+    margin-top: 5%;
+
+}
+
+#ul-1{
+    display: inline-block;
+   
+}
+
+#ul-2{
+  float: right;
+ margin-right: 40%;
+ 
+   margin-top: 0;
+  width: 25%;
+}
+
+#ul-2 ion-icon{
+    font-size: 3vw;
+    margin: auto;
+  
+}
+
+#copy{
+    margin: auto;
+    margin-top: 0;
+    margin-right: 5%;
+  
+}
+
+#footing{
+    padding: 2%;
+    
+}
+
+
+
+  }
+
+
+  @media only screen and (max-width: 999px) {
+
+#content-2 ul{
+    display: none;
+}
+
+
+  }
+
+  @media only screen and (min-width: 1000px) {
+#top p{
+    margin-left: 0;
+    text-align:center;
+    margin-right: 70%;
+  width: 50%;
+ 
+   
+}
+
+#burger{
+    display: none;
+    
+
+}
+
+#content-1{
+  
+    display: inline;
+    float: left;
+ 
+    width: 40%;
+    
+}
+
+#content-2{
+    display: inline; 
+    float: right;
+    margin-right: 10%;
+    width: 50%;
+    margin-top: 0.4%;
+}
+
+
+
+#top li{
+    width: 100%;
+    display: inline;
+    margin: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  
+  }
+
+  #top li:hover{
+    border-style: solid;
+    border-width: thin;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+   
+    
+   
+  }
+
+
+
+#name-el{
+    font-size: 2vw;
+    font-family: pops;
+}
+
+#profession{
+    font-size: 1vw;
+    font-family: poppins;
+}
+
+
+#top ion-icon{
+      
+    display: none; 
+}
+
+#opener img{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+#opener{
+    padding-top: 15%;
+    text-align: left;
+    padding-bottom: 5%;
+   padding-right: 2%;
+    
+ }
+
+ #opener button{
+    margin: auto;
+    position: relative;
+   margin-left: 0;
+    width: 20%;
+   
+  }
+
+ #tit-el{
+   
+       display: inline;
+       margin: auto; 
+    font-size: 2.5vw;
+    
+   
+}
+
+#header-el{
+ 
+    font-size: 1.5vw;
+}
+
+#bold{
+ 
+    font-size: 1.5vw;
+}
+
+#header{
+ 
+    font-size: 1.5vw;
+}
+
+#how{
+        
+    font-size: 2.5vw;
+}
+
+#option{
+    font-size: 1.5vw;
+}
+
+#section{
+    padding-bottom: 5%;
+}
+
+#section button{
+  
+  width: 40%;
+ 
+}
+
+
+
+
+
+
+#target-el{
+    font-size: 2.5vw;
+  
+}
+
+#target{
+    font-size: 2.5vw;
+  
+}
+
+#arrange{
+    font-size: 2.5vw;
+  
+}
+
+
+#work{
+  position: relative; 
+  width: 20%;
+  overflow: hidden;
+  margin-left: 31%;
+
+}
+
+#working{
+    position: relative; 
+    width: 30%;
+    overflow: hidden;
+   
+  
+  }
+
+#hard{
+   
+    width: 20%;
+    
+  
+  }
+
+#design-el{
+        
+    font-size: 1.5vw;
+}
+
+
+#cal-el{
+    font-family: pops;
+    font-size: 1.5vw;
+}
+
+
+#sub-el{
+        
+    font-size: 2vw;
+}
+
+#op-el{
+    padding-bottom: 5%;
+    
+}
+
+#sec{
+    padding-bottom: 5%;
+}
+
+#sec button{
+    padding: 1%;
+    width: 60%;
+   
+  }
+
+
+  #call-el{
+    font-size: 1.5vw;
+    
+}
+
+#client{
+        
+    font-size: 2.5vw;
+}
+
+
+
+
+#work-el{
+   
+    width: 35%;
+   
+  
+  }
+
+  #op{
+    padding-bottom: 5%;
+}
+
+#bowl{
+  
+  height: 64vw;
+  
+}
+
+
+#ul-2 ion-icon{
+    margin: auto;
+    font-size: 2vw;
+  
+  
+}
+
+
+  }
+
+
+
+
+  /*---- work page */
+
+  @media only screen and (min-width: 200px) {
+
+    #wrap-el{
+        padding: 2%;
+        text-align: center;
+        border-style: solid;
+        border-width: thin;
+     border-left: transparent;
+     border-top: transparent;
+     border-right: transparent;
+     padding-bottom: 10%;
+    }
+
+    #wrapper{
+        background-color: #f6ede2;
+        padding: 2%;
+        text-align: center;
+        border-style: solid;
+        border-width: thin;
+     border-left: transparent;
+     border-top: transparent;
+     border-right: transparent;
+     
+    }
+
+    #real{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 10%;
+        border-style: solid;
+        border-width: thin;
+     border-left: transparent;
+     border-top: transparent;
+     border-right: transparent;
+     
+    }
+
+    #real img{
+        width: 90%;
+     border-style: solid;
+     border-width: thin;
+     margin-top: 15%;   
+    }
+
+  #clone{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ background-color: #f6ede2;
+  }
+
+  #clone img{
+    width: 90%;
+ border-style: solid;
+ border-width: thin;
+ margin-top: 15%;   
+}
+
+#clone-el{
+   
+    margin: auto;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ overflow: hidden;
+ background-color: #c0b58a;
+ 
+ 
+  }
+
+  #clone-el img{
+    width: 40%;
+ border-style: solid;
+ border-width: thin;
+ margin-top: 10%;
+ margin-left: 5%;
+
+ overflow: hidden;
+}
+
+
+#different{
+    padding: 2%;
+    text-align: center;
+    padding-bottom: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+
+}
+
+#different img{
+    width: 100%;
+   
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+}
+
+#boarder-el{
+    width: 90%;
+    border-style: solid;
+    border-width: thin; 
+    margin: auto;
+    margin-top: 15%;
+    padding-bottom: 10%;
+}
+
+#board img{
+    width: 100%;
+  
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding: 0;
+}
+
+#pot img{
+    width: 100%;
+  
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding: 0;
+}
+
+#bowl img{
+    width: 100%;
+  
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding: 0;
+}
+
+
+
+#projects{
+    padding: 2%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ padding-bottom: 10%;
+}
+
+#music{
+    padding: 2%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ padding-bottom: 10%;
+ background-color: #f6ede2;
+}
+
+
+
+#projects-el{
+    padding: 2%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ padding-bottom: 10%;
+ background-color: #f6ede2;
+}
+
+
+#projects img{
+    width: 100%;
+  
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding-top: 5%;
+padding: 0;
+
+}
+
+#music img{
+    width: 100%;
+  
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding-top: 5%;
+padding: 0;
+
+}
+
+#projects-el img{
+    width: 100%;
+ 
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding-top: 5%;
+padding: 0;
+
+}
+
+
+#projects button{
+    margin: auto;
+     background-color: #2f4858;
+     border-style: none;
+     cursor: pointer;
+  width: 60%;
+  color: white;
+}
+
+
+#music button{
+    margin: auto;
+     background-color: #2f4858;
+     border-style: none;
+     cursor: pointer;
+  width: 60%;
+  color: white;
+}
+
+
+#calling-el{
+    padding: 2%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ padding-bottom: 10%;
+ background-color: #fdfbf9;
+ 
+}
+
+#names{
+    width: 90%;
+    display: inline;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    
+}
+
+
+
+
+#email{
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+ 
+}
+
+#contact{
+    margin: 5%;
+    margin-top: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-bottom: transparent;
+ border-right: transparent;
+ 
+ 
+}
+
+
+#label{
+
+    font-size: 5vw;
+ font-family: pops;
+    
+    text-align: left;
+    
+    margin-bottom: 0;
+    margin-left: 4%;
+    
+}
+
+#styling{
+    width: 40%;
+    position: relative;
+    width: 45%;
+    margin-top: 5%;
+   padding-bottom: 5%;
+   margin-left: 3%;
+   float: left;
+  
+}
+
+#styling-2{
+    width: 90%;
+    position: relative;
+    width: 45%;
+    margin-top: 5%;
+   padding-bottom: 5%;
+   margin-left: 3%;
+   float: left;
+  
+}
+
+textarea{
+    max-width: 90%;
+    min-width: 90%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    font-size: 3.5vw;
+    font-family: pops;
+}
+
+input{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-bottom: 5%;
+    font-size: 3.5vw;
+    font-family: pops;
+}
+
+#submit{
+    margin: auto;
+     background-color: #2f4858;
+     border-style: none;
+     cursor: pointer;
+  width: 60%;
+  color: white;
+  margin: 5%;
+}
+
+  }
+
+
+  @media only screen and (min-width: 600px) {
+
+    #wrap-el{
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 5%;
+    }
+
+    #wrapper{
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 5%;
+    }
+
+    #real{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+      #real img{
+        position: relative;
+        width: 40%;
+      margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+       
+       
+    }
+
+    #clone{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        overflow: hidden;
+    }
+    
+      #clone img{
+        position: relative;
+        width: 40%;
+      margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: right;
+       
+       
+    }
+
+   
+    #clone-el{
+        padding-top: 5%;
+        padding-bottom: 5%;
+       
+    }
+
+    #clone-el img{
+        position: relative;
+        width: 20%;
+      margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        overflow: hidden;
+       
+       
+    }
+
+    #different{
+        margin: auto;
+        overflow: hidden;
+     
+       
+    }
+
+    #board img{
+        width: 100%;
+       
+       border-style: solid;
+       border-width: thin;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    padding: 0;
+    }
+
+    #pot img{
+        width: 100%;
+     
+       border-style: solid;
+       border-width: thin;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    padding: 0;
+    }
+
+
+    #bowl img{
+        width: 100%;
+    
+       border-style: solid;
+       border-width: thin;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    padding: 0;
+    }
+
+
+
+    #projects{
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 10%;
+    }
+
+    #music{
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 10%;
+    }
+
+   
+
+    #projects-el{
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 10%;
+        
+    }
+
+    #calling-el{
+        margin: auto;
+        overflow: hidden;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        
+    }
+
+    #label{
+        margin-right: 5%;
+        font-size: 2vw;
+        
+    }
+
+    #contact{
+        position: relative;
+        width: 55%;
+        margin: auto;
+        
+      margin-top: 3%;
+     
+    
+    }
+
+
+    input{
+     
+        font-size: 1.5vw;
+    
+    }
+
+    textarea{
+
+        font-size: 1.5vw;
+
+    }
+
+
+    #names{
+        
+        padding-top: 4%;
+        padding-bottom: 4%;
+        
+    }
+    
+    
+    #email{
+       
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+     
+    }
+
+
+    #submit{
+        
+      width: 30%;
+      
+    }
+
+  }
+
+
+  @media only screen and (min-width: 1000px) {
+
+    #real{
+       
+        padding-bottom: 5%;
+    }
+
+    #different{
+        padding-bottom: 5%;
+    }
+
+    #projects{
+        padding-bottom: 5%;
+    }
+
+ 
+
+    #music{
+        padding-bottom: 5%;
+    }
+
+    #projects button{
+      
+        width: 50%;
+        
+      }
+
+      #music button{
+      
+        width: 50%;
+        
+      }
+
+      #projects-el{
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 5%;
+        
+    }
+
+    #projects-img{
+        padding-bottom: 5%;
+    }
+
+    #music-img{
+        padding-bottom: 5%;
+    }
+
+
+    #label{
+ 
+        font-size: 1.5vw;
+    }
+
+    input{
+     
+        font-size: 1vw;
+    
+    }
+
+    textarea{
+        font-size: 1vw;
+        padding-top: 2%;
+     
+        
+    }
+
+    #clone-el{
+        padding-top: 5%;
+        padding-bottom: 5%;
+       
+    }
+
+
+  }
