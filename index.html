@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+
+  <div id="preloader">
+
+    <div id="content-1"><p id="name-el-1">Live Mxaku<p>
+      <p id="profession-1">Frond-End Web Developer<p></div>
+
+  </div>
 
     <div id="top">
 
@@ -32,9 +40,9 @@
     </div>
 
     <div id="opener">
-        <img src="images/first.jpg" alt="live">
+        <img src="images/first.jpg" alt="live" data-aos="fade-right">
 
-        <p id="tit-el">
+        <p id="tit-el" data-aos="fade-down">
             Websites for companies to showcase their brand
             to prospective customers
         </p>
@@ -56,7 +64,7 @@
       I provide two services
       </p>
 
-<div id="board">
+<div id="board" data-aos="fade-up">
    
       <img src="images/Design.jpg" alt="Design">
       <p id="sub-el">
@@ -71,7 +79,7 @@
       <a href="index.html#op-el"><button><p id="cal-el">Learn More</p></button></a>
     </div>
 
-    <div id="board">
+    <div id="board" data-aos="fade-up">
    
         <img src="images/Development.jpg" alt="Development">
         <p id="sub-el">
@@ -91,7 +99,7 @@
 
     <div id="op-el">
       
-      <img src="images/second.jpg" alt="live">
+      <img src="images/second.jpg" alt="live" data-aos="fade-up">
     
       
       <p id="target-el">Let's design an appealing website for your desired target audience</p>
@@ -170,7 +178,7 @@
 
       <div id="op">
       
-        <img src="images/5th.jpg" alt="live">
+        <img src="images/5th.jpg" alt="live" data-aos="fade-right">
       
         
         <p id="target-el">A website that reflects your identity</p>
@@ -234,10 +242,10 @@
       <a href="privacy.html"><li><p id="header-el">
         Privacy Policy</p></li></a>
 
-        <ion-icon name="logo-instagram"></ion-icon>
-        <ion-icon name="logo-facebook"></ion-icon>
-        <ion-icon name="logo-twitter"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
+       
+        <a href="https://instagram.com/live_mxaku_?igshid=NGExMmI2YTkyZg==" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://m.facebook.com/story.php?story_fbid=pfbid0acurRda7ZpfCrg2L3eRgtE374hR1No8nBDp9MMPHjacD8xCzC77LeyqyiQjJ2Hxtl&id=100094438481493&sfnsn=scwspwa&mibextid=SDPelY" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://za.linkedin.com/in/live-mxaku-009802263" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
 
   </ul>
 
@@ -255,6 +263,11 @@
 
 
 <script src="pot.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
