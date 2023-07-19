@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
    
+   
 }
 
 
@@ -32,6 +33,24 @@ body{
 
   @media only screen and (min-width: 200px) {
 
+    #preloader{
+      background-color: #fdfbf9;
+      height: 100vh;
+      width: 100%;
+      z-index: 100;
+      margin: auto;
+      position: fixed;
+      text-align: center;
+      padding-top: 60%;
+      
+    }
+
+    #preloader p{
+       
+        line-height: 5%;
+        
+      }
+
     a{
         text-decoration: none;
         color: inherit;
@@ -60,9 +79,20 @@ body{
     font-family: pops;
 }
 
+#name-el-1{
+    font-size: 7vw;
+    font-family: pops;
+}
+
 #profession{
     font-size: 3vw;
     font-family: poppins;
+}
+
+#profession-1{
+    font-size: 4vw;
+    font-family: poppins;
+    
 }
 
 #top ion-icon{
@@ -591,9 +621,19 @@ margin: auto;
         font-size: 4vw;
         
     }
+
+    #name-el-1{
+        font-size: 5vw;
+        
+    }
     
     #profession{
         font-size: 2vw;
+        
+    }
+
+    #profession-1{
+        font-size: 3vw;
         
     }
 
@@ -733,6 +773,7 @@ margin: auto;
     #sub-el{
         
         font-size: 2.5vw;
+        
         
     }
 
@@ -889,6 +930,7 @@ margin: auto;
 
 #ul-1{
     display: inline-block;
+    width: 30%;
    
 }
 
@@ -995,8 +1037,18 @@ margin: auto;
     font-family: pops;
 }
 
+#name-el-1{
+    font-size: 3vw;
+    font-family: pops;
+}
+
 #profession{
     font-size: 1vw;
+    font-family: poppins;
+}
+
+#profession-1{
+    font-size: 2vw;
     font-family: poppins;
 }
 
@@ -1755,6 +1807,20 @@ input{
 
 
   @media only screen and (min-width: 1000px) {
+
+    #preloader{
+      margin: auto;
+        text-align: center;
+        
+        padding: 30%;
+        padding-top: 20%;
+      }
+
+      #preloader p{
+      
+        line-height: 5%;
+        
+      }
 
     #real{
        
