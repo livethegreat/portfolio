@@ -2,6 +2,13 @@
 let menu = document.getElementById('menu')
 let bro = document.getElementById('top')
 
+let loader = document.getElementById('preloader');
+
+window.addEventListener('load', function preloader() {
+
+   loader.style.display = 'none';
+   
+})
 
 
 
@@ -55,6 +62,7 @@ function closing() {
  
     
 }
+
 
 
 
