@@ -618,7 +618,7 @@ margin: auto;
 
 
     #name-el{
-        font-size: 4vw;
+        font-size: 3vw;
         
     }
 
@@ -628,7 +628,7 @@ margin: auto;
     }
     
     #profession{
-        font-size: 2vw;
+        font-size: 1.5vw;
         
     }
 
@@ -639,7 +639,7 @@ margin: auto;
 
     #top ion-icon{
         top: 10%;
-         font-size:8vw;  
+         font-size:6vw;  
      }
 
 
@@ -930,7 +930,7 @@ margin: auto;
 
 #ul-1{
     display: inline-block;
-    width: 30%;
+    width: 35%;
    
 }
 
