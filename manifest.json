@@ -1,0 +1,16 @@
+{
+    "name": "Live Mxaku",
+    "short_name": "Live",
+    "description": "I create websites for businesses that want to increase their credibility and showcase their brand to their target customers",
+    "start_url": "https://livemxaku.com",
+    "display": "standalone",
+    "background_color": "#fdfbf9",
+    "theme_color": "#ecd8c1",
+    "icons": [
+      {
+        "src": "images/favicon.jpg",
+        "sizes": "163x162",
+        "type": "image/jpg"
+      }
+    ]
+  }
